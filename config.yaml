@@ -1,0 +1,10 @@
+input_features:
+    -
+        name: images_path
+        type: image
+        encoder: stacked_cnn
+
+output_features:
+    -
+        name: class
+        type: category
